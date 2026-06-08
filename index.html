@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Meta Tags -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Personal portfolio of [Your Name] — a beginner web developer passionate about technology, design, and building things on the web." />
+  <meta name="author" content="[Your Name]" />
+  <meta name="keywords" content="web development, HTML, CSS, portfolio, student" />
+
+  <title>[Your Name] | Personal Portfolio</title>
+
+  <!-- External Stylesheet -->
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- =============================================
+       NAVIGATION
+       ============================================= -->
+  <nav class="navbar" role="navigation" aria-label="Main navigation">
+    <div class="container nav-inner">
+      <!-- Logo -->
+      <a href="index.html" class="nav-logo">Ahlumile<span>Totose</span></a>
+
+      <!-- Desktop Navigation Links -->
+      <ul class="nav-links" role="list">
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+
+      <!-- CTA Button -->
+      <a href="contact.html" class="btn btn-primary nav-cta desktop-only">Say Hello ✉️</a>
+
+      <!-- Hamburger for Mobile -->
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Mobile Nav -->
+  <div class="mobile-nav" id="mobileNav" role="navigation" aria-label="Mobile navigation">
+    <a href="index.html">🏠 Home</a>
+    <a href="about.html">👤 About Me</a>
+    <a href="projects.html">💼 Projects</a>
+    <a href="contact.html">✉️ Contact</a>
+  </div>
+
+  <!-- =============================================
+       HERO SECTION
+       ============================================= -->
+  <section class="hero" id="hero" aria-labelledby="hero-heading">
+    <div class="container">
+      <div class="hero-grid">
+
+        <!-- Text Content -->
+        <div class="hero-text">
+          <div class="hero-eyebrow">Available for opportunities</div>
+
+          <h1 class="hero-name" id="hero-heading">
+            Hello, I'm
+            <em>Ahlumile Totose</em>
+          </h1>
+
+          <p class="hero-tagline">
+            A curious beginner developer learning to build beautiful, 
+            functional things on the web — one line of code at a time.
+          </p>
+
+          <div class="hero-btns">
+            <a href="projects.html" class="btn btn-primary">View My Work →</a>
+            <a href="about.html" class="btn btn-outline">Learn About Me</a>
+          </div>
+
+          <!-- Quick Stats -->
+          <div class="hero-stats">
+            <div class="stat">
+              <div class="stat-num">3+</div>
+              <div class="stat-label">Projects Built</div>
+            </div>
+            <div class="stat">
+              <div class="stat-num">4</div>
+              <div class="stat-label">Languages Learned</div>
+            </div>
+            <div class="stat">
+              <div class="stat-num">99,9%</div>
+              <div class="stat-label">Passion</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Visual Decoration -->
+        <div class="hero-visual" aria-hidden="true">
+          <div class="hero-img-wrap">
+            <div class="hero-img-bg"></div>
+            <div class="hero-img-placeholder">
+            <div class="hero-avatar-border"></div>
+              <img src="C:\Users\Admin\Downloads\IMG_2006.jpg" alt="My image" class="hero-img" />
+            </div>
+            <div class="hero-badge">
+              <strong>JavaScript</strong>
+              Currently Learning
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- =============================================
+       SKILLS OVERVIEW (HOME PREVIEW)
+       ============================================= -->
+  <section class="section skills-section" id="skills" aria-labelledby="skills-heading">
+    <div class="container">
+      <p class="section-label">What I Know</p>
+      <h2 class="section-title" id="skills-heading">My <em>Skills</em> So Far</h2>
+      <p class="section-subtitle">
+        I'm just getting started, but here's what I've been learning and practising during 
+        my full stack development journey.
+      </p>
+
+      <!-- Skills Grid -->
+      <div class="skills-grid">
+
+        <!-- HTML Card -->
+        <article class="skill-category">
+          
+          <h3 class="skill-cat-title">HTML</h3>
+          <div class="skill-bars">
+            <div class="skill-row">
+              <div class="skill-row-top">
+                <span>Document Structure</span><span>80%</span>
+              </div>
+              <div class="skill-bar-bg">
+                <div class="skill-bar-fill" style="width:80%"></div>
+              </div>
+            </div>
+            <div class="skill-row">
+              <div class="skill-row-top">
+                <span>Semantic Elements</span><span>70%</span>
+              </div>
+              <div class="skill-bar-bg">
+                <div class="skill-bar-fill" style="width:70%"></div>
+              </div>
+            </div>
+            <div class="skill-row">
+              <div class="skill-row-top">
+                <span>Forms &amp; Tables</span><span>65%</span>
+              </div>
+              <div class="skill-bar-bg">
+                <div class="skill-bar-fill" style="width:65%"></div>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <!-- CSS Card -->
+        <article class="skill-category">
+          
+          <h3 class="skill-cat-title">CSS</h3>
+          <div class="skill-bars">
+            <div class="skill-row">
+              <div class="skill-row-top">
+                <span>Selectors &amp; Box Model</span><span>75%</span>
+              </div>
+              <div class="skill-bar-bg">
+                <div class="skill-bar-fill" style="width:75%"></div>
+              </div>
+            </div>
+            <div class="skill-row">
+              <div class="skill-row-top">
+                <span>Flexbox &amp; Grid</span><span>60%</span>
+              </div>
+              <div class="skill-bar-bg">
+                <div class="skill-bar-fill" style="width:60%"></div>
+              </div>
+            </div>
+            <div class="skill-row">
+              <div class="skill-row-top">
+                <span>Responsive Design</span><span>55%</span>
+              </div>
+              <div class="skill-bar-bg">
+                <div class="skill-bar-fill" style="width:55%"></div>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <!-- JavaScript Card -->
+        <article class="skill-category">
+          <h3 class="skill-cat-title">JavaScript</h3>
+          <div class="skill-bars">
+            <div class="skill-row">
+              <div class="skill-row-top">
+                <span>Syntax &amp; Basics</span><span>50%</span>
+              </div>
+              <div class="skill-bar-bg">
+                <div class="skill-bar-fill" style="width:50%"></div>
+              </div>
+            </div>
+            <div class="skill-row">
+              <div class="skill-row-top">
+                <span>Objects &amp; Error handling</span><span>40%</span>
+              </div>
+              <div class="skill-bar-bg">
+                <div class="skill-bar-fill" style="width:40%"></div>
+              </div>
+            </div>
+            <div class="skill-row">
+              <div class="skill-row-top">
+                <span>Control Structures</span><span>60%</span>
+              </div>
+              <div class="skill-bar-bg">
+                <div class="skill-bar-fill" style="width:30%"></div>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <!--Python Card-->
+        <article class="skill-category">
+          <h3 class="skill-cat-title">Python</h3>
+          <div class="skill-bars">
+            <div class="skill-row">
+              <div class="skill-row-top">
+                <span>Syntax &amp; Basics</span><span>60%</span>
+              </div>
+              <div class="skill-bar-bg">
+                <div class="skill-bar-fill" style="width:60%"></div>
+              </div>
+            </div>
+            <div class="skill-row">
+              <div class="skill-row-top">
+                <span>Basic Scripting</span><span>60%</span>
+              </div>
+              <div class="skill-bar-bg">
+                <div class="skill-bar-fill" style="width:60%"></div>
+              </div>
+            </div>
+            <div class="skill-row">
+              <div class="skill-row-top">
+                <span>Python programming</span><span>70%</span>
+              </div>
+              <div class="skill-bar-bg">
+                <div class="skill-bar-fill" style="width:70%"></div>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <!-- Tools Card -->
+        <article class="skill-category">
+          <h3 class="skill-cat-title">Tools &amp; Workflow</h3>
+          <div class="tech-tags">
+            <span class="tech-tag">VS Code</span>
+            <span class="tech-tag">GitHub</span>
+            <span class="tech-tag">Git</span>
+            <span class="tech-tag">Figma (basics)</span>
+            <span class="tech-tag">Terminal</span>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- =============================================
+       INTERESTS / GALLERY SECTION
+       ============================================= -->
+  <section class="section interests-section" id="interests" aria-labelledby="interests-heading">
+    <div class="container">
+      <p class="section-label">Beyond Code</p>
+      <h2 class="section-title" id="interests-heading">My <em>Interests</em></h2>
+      <p class="section-subtitle">
+        When I'm not writing code, here's what keeps me inspired and energised.
+      </p>
+
+      <!-- Interest Cards Grid -->
+      <div class="interests-grid" role="list">
+
+        <div class="interest-card" role="listitem" style="background: linear-gradient(135deg,#f12c04,#e49b07);"> 
+          <div class="interest-card-inner">  
+          <img src="https://www.konami.com/games_cms/promo/eu/uploads/efootball_v550_keyvisual_4k-1024x576.png">
+            <span role="img" aria-label="Gaming"></span>
+            <span class="interest-card-label">Gaming</span>
+            
+            
+          </div>
+        </div>
+
+        <div class="interest-card" role="listitem" style="background: linear-gradient(135deg,#c4622d,#e8a26a);">
+          <div class="interest-card-inner">
+            <span role="img" aria-label="Design">🎨</span>
+            <span class="interest-card-label">Design</span>
+          </div>
+        </div>
+
+        <div class="interest-card" role="listitem" style="background: linear-gradient(135deg,#f39026,#6a9fd8);">
+          <div class="interest-card-inner">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1GK2jgyjoUxTbirlzqsRtKy8pIWZNAUmQoQ&s">
+            <span role="img" aria-label="Reading"></span>
+            <span class="interest-card-label">Reading</span>
+          </div>
+        </div>
+
+        <div class="interest-card" role="listitem" style="background: linear-gradient(135deg,#7b4ea8,#b088d4);">
+          <div class="interest-card-inner">
+            <img src="https://slimegreenbeats.com/cdn/shop/articles/thumbnail_8e1f0c46-2f57-4b68-a7bf-fae8faeab56b.jpg?v=1737201081">
+            <span role="img" aria-label="Music"></span>
+            <span class="interest-card-label">Music Production</span>
+          </div>
+        </div>
+
+        <div class="interest-card" role="listitem" style="background: linear-gradient(135deg,#2d7a4a,#5ab87a);">
+          <div class="interest-card-inner">
+            <span role="img" aria-label="Nature">🌿</span>
+            <span class="interest-card-label">Nature</span>
+          </div>
+        </div>
+
+        <div class="interest-card" role="listitem" style="background: linear-gradient(135deg,#a84e2d,#d4896a);">
+          <div class="interest-card-inner">
+            <span role="img" aria-label="Problem Solving">🧩</span>
+            <span class="interest-card-label">Problem Solving</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- =============================================
+       GOALS TABLE SECTION
+       ============================================= -->
+  <section class="section goals-section" id="goals" aria-labelledby="goals-heading">
+    <div class="container">
+      <p class="section-label">What's Next</p>
+      <h2 class="section-title" id="goals-heading">My Learning <em>Goals</em></h2>
+      <p class="section-subtitle">
+        A structured look at where I've been, where I am, and where I'm heading 
+        in my web development journey.
+      </p>
+
+      <!-- Goals Table -->
+      <div class="goals-table-wrap" role="region" aria-label="Learning goals table">
+        <table>
+          <caption style="display:none">Learning goals and their status</caption>
+          <thead>
+            <tr>
+              <th scope="col">Goal / Topic</th>
+              <th scope="col">Category</th>
+              <th scope="col">Target Date</th>
+              <th scope="col">Status</th>
+              <th scope="col">Notes</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>HTML Fundamentals</td>
+              <td>HTML</td>
+              <td>Month 1</td>
+              <td><span class="badge badge-done">✅ Done</span></td>
+              <td>Headings, links, images, forms</td>
+            </tr>
+            <tr>
+              <td>CSS Basics &amp; Box Model</td>
+              <td>CSS</td>
+              <td>Month 1</td>
+              <td><span class="badge badge-done">✅ Done</span></td>
+              <td>Colours, padding, margins, borders</td>
+            </tr>
+            <tr>
+              <td>Flexbox Layout</td>
+              <td>CSS</td>
+              <td>Month 2</td>
+              <td><span class="badge badge-done">✅ Done</span></td>
+              <td>Navbar and card layouts</td>
+            </tr>
+            <tr>
+              <td>CSS Grid</td>
+              <td>CSS</td>
+              <td>Month 2</td>
+              <td><span class="badge badge-progress">🔄 In Progress</span></td>
+              <td>Used in portfolio layout</td>
+            </tr>
+            <tr>
+              <td>Responsive Design</td>
+              <td>CSS</td>
+              <td>Month 3</td>
+              <td><span class="badge badge-progress">🔄 In Progress</span></td>
+              <td>Media queries and mobile-first</td>
+            </tr>
+            <tr>
+              <td>JavaScript Basics</td>
+              <td>JavaScript</td>
+              <td>Month 4</td>
+              <td><span class="badge badge-progress">🔄 In Progress</span></td>
+              <td>Variables, functions, DOM</td>
+            </tr>
+            <tr>
+              <td>Master GitHub</td>
+              <td>Deployment</td>
+              <td>Month 3</td>
+              <td><span class="badge badge-progress">🔄 In Progress</span></td>
+              <td>Host portfolio live</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- =============================================
+       FOOTER
+       ============================================= -->
+  <footer class="footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-grid">
+
+        <!-- Brand -->
+        <div class="footer-brand">
+          <a href="index.html" class="nav-logo">Ahlumile<span style="color:var(--clr-accent)"> Totose</span></a>
+          <p>
+            A beginner web developer building skills, creating projects, 
+            and sharing the journey one commit at a time.
+          </p>
+        </div>
+
+        <!-- Navigation Links -->
+        <div class="footer-col">
+          <h4>Navigation</h4>
+          <ul role="list">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Me</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+
+        <!-- Resources -->
+        <div class="footer-col">
+          <h4>Resources</h4>
+          <ul role="list">
+            <li><a href="https://developer.mozilla.org" target="_blank" rel="noopener noreferrer">MDN Web Docs</a></li>
+            <li><a href="https://www.w3schools.com" target="_blank" rel="noopener noreferrer">W3Schools</a></li>
+            <li><a href="https://github.com" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+            <li><a href="https://css-tricks.com" target="_blank" rel="noopener noreferrer">CSS-Tricks</a></li>
+          </ul>
+        </div>
+
+      </div>
+
+      <!-- Footer Bottom Bar -->
+      <div class="footer-bottom">
+        <p>&copy; 2026 Ahlumile Totose Built with ❤️ using HTML &amp; CSS.</p>
+      
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to Top Button -->
+  <button class="back-top" id="backTop" aria-label="Back to top">↑</button>
+
+  <!-- INLINE JAVASCRIPT -->
+  <script>
+    /* --- Hamburger Menu Toggle --- */
+    const hamburger = document.getElementById('hamburger');
+    const mobileNav = document.getElementById('mobileNav');
+
+    hamburger.addEventListener('click', () => {
+      const isOpen = mobileNav.classList.toggle('open');
+      hamburger.setAttribute('aria-expanded', isOpen);
+    });
+
+    /* --- Back to Top Button --- */
+    const backTop = document.getElementById('backTop');
+    window.addEventListener('scroll', () => {
+      backTop.classList.toggle('visible', window.scrollY > 400);
+    });
+    backTop.addEventListener('click', () => {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+  </script>
+
+</body>
+</html>

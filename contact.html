@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Get in touch with Ahlumile Totose — reach out via the contact form or connect on social media." />
+  <meta name="author" content="Ahlumile" />
+  <title>Contact | Ahlumile</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar" role="navigation" aria-label="Main navigation">
+    <div class="container nav-inner">
+      <a href="index.html" class="nav-logo">Ahlumile<span>Totose</span></a>
+      <ul class="nav-links" role="list">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+      </ul>
+      <a href="contact.html" class="btn btn-primary nav-cta desktop-only">Say Hello ✉️</a>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <div class="mobile-nav" id="mobileNav">
+    <a href="index.html">🏠 Home</a>
+    <a href="about.html">👤 About Me</a>
+    <a href="projects.html">💼 Projects</a>
+    <a href="contact.html">✉️ Contact</a>
+  </div>
+
+  <!-- Page Hero -->
+  <section class="page-hero" aria-labelledby="page-title">
+    <div class="container">
+      <p class="section-label">Let's Connect</p>
+      <h1 class="section-title" id="page-title">Get In <em>Touch</em></h1>
+      <p class="section-subtitle">
+        Whether you want to collaborate, give feedback on my work, or just say hello — 
+        I'd love to hear from you!
+      </p>
+    </div>
+  </section>
+
+  <!-- =============================================
+       CONTACT SECTION
+       ============================================= -->
+  <section class="section" id="contact" aria-labelledby="contact-heading">
+    <div class="container">
+      <div class="contact-grid">
+
+        <!-- Contact Info Column -->
+        <div class="contact-info">
+          <h2 id="contact-heading">Say <em style="font-style:italic; color:var(--clr-primary)">Hello!</em></h2>
+          <p>
+            I'm always happy to connect with fellow learners, potential collaborators, 
+            or anyone interested in web development. Fill in the form or reach out 
+            through any of the channels below.
+          </p>
+
+          <div class="contact-methods" role="list">
+
+            <div class="contact-method" role="listitem">
+              <div class="contact-method-icon" aria-hidden="true">✉️</div>
+              <div>
+                <div class="contact-method-label">Email</div>
+                <div class="contact-method-value">
+                  <a href="mailto:yourname@email.com" style="color:inherit; text-decoration:underline; text-decoration-color:var(--clr-primary);">
+                    totoseahlumile@email.com
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="contact-method" role="listitem">
+              <div class="contact-method-icon" aria-hidden="true">🐙</div>
+              <div>
+                <div class="contact-method-label">GitHub</div>
+                <div class="contact-method-value">
+                  <a href="https://github.com/totoseahlumile-dot" target="_blank" rel="noopener noreferrer" style="color:inherit;">
+                    github.com/totoseahlumile-dot
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="contact-method" role="listitem">
+              <div class="contact-method-icon" aria-hidden="true">💼</div>
+              <div>
+                <div class="contact-method-label">LinkedIn</div>
+                <div class="contact-method-value">
+                  <a href="https://www.linkedin.com/in/ahlumile-totose-9591b5329/" target="_blank" rel="noopener noreferrer" style="color:inherit;">
+                    linkedin.com/in/ahlumile-totose
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="contact-method" role="listitem">
+              <div class="contact-method-icon" aria-hidden="true">📍</div>
+              <div>
+                <div class="contact-method-label">Location</div>
+                <div class="contact-method-value">Cape Town, South Africa</div>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- Social Links -->
+          <div style="margin-top:2rem;">
+            <p style="font-size:0.82rem; color:var(--clr-muted); margin-bottom:0.75rem; text-transform:uppercase; letter-spacing:0.08em; font-weight:600;">
+              Find Me On
+            </p>
+            <div style="display:flex; gap:0.75rem;">
+              <a href="#" class="btn btn-outline" style="padding:0.5rem 1rem; font-size:0.82rem;" aria-label="Visit GitHub profile">
+                🐙 GitHub
+              </a>
+              <a href="#" class="btn btn-outline" style="padding:0.5rem 1rem; font-size:0.82rem;" aria-label="Visit LinkedIn profile">
+                💼 LinkedIn
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Contact Form -->
+        <div class="contact-form" role="region" aria-label="Contact form">
+          <h3>Send Me a Message</h3>
+
+          <!-- 
+            NOTE: This form doesn't submit anywhere yet — 
+            To make it work, you can use a free service like 
+            Formspree (https://formspree.io) or Netlify Forms.
+          -->
+          <form action="#" method="POST" novalidate>
+
+            <!-- Name Row -->
+            <div class="form-row">
+              <div class="form-group">
+                <label for="firstName">First Name <span aria-hidden="true">*</span></label>
+                <input 
+                  type="text" 
+                  id="firstName" 
+                  name="firstName" 
+                  placeholder="e.g. Jane"
+                  required
+                  autocomplete="given-name"
+                  aria-required="true"
+                />
+              </div>
+              <div class="form-group">
+                <label for="lastName">Last Name <span aria-hidden="true">*</span></label>
+                <input 
+                  type="text" 
+                  id="lastName" 
+                  name="lastName" 
+                  placeholder="e.g. Mcfury"
+                  required
+                  autocomplete="family-name"
+                  aria-required="true"
+                />
+              </div>
+            </div>
+
+            <!-- Email -->
+            <div class="form-group">
+              <label for="email">Email Address <span aria-hidden="true">*</span></label>
+              <input 
+                type="email" 
+                id="email" 
+                name="email" 
+                placeholder="jane@example.com"
+                required
+                autocomplete="email"
+                aria-required="true"
+              />
+            </div>
+
+            <!-- Subject -->
+            <div class="form-group">
+              <label for="subject">Subject <span aria-hidden="true">*</span></label>
+              <select id="subject" name="subject" required aria-required="true">
+                <option value="" disabled selected>Select a topic…</option>
+                <option value="feedback">Feedback on my portfolio</option>
+                <option value="collaboration">Collaboration idea</option>
+                <option value="opportunity">Job / Internship opportunity</option>
+                <option value="question">General question</option>
+                <option value="other">Something else</option>
+              </select>
+            </div>
+
+            <!-- Message -->
+            <div class="form-group">
+              <label for="message">Message <span aria-hidden="true">*</span></label>
+              <textarea 
+                id="message" 
+                name="message" 
+                placeholder="Tell me what's on your mind…"
+                required
+                minlength="20"
+                aria-required="true"
+              ></textarea>
+            </div>
+
+           
+
+            <!-- Newsletter Checkbox -->
+            <div class="form-group">
+              <label style="display:flex; align-items:flex-start; gap:0.7rem; font-weight:400; font-size:0.88rem; cursor:pointer; line-height:1.5;">
+                <input type="checkbox" name="newsletter" id="newsletter" style="width:auto; margin-top:2px;" />
+                I'd like to follow Ahlumile's learning journey and receive occasional updates.
+              </label>
+            </div>
+
+            <!-- Submit Button -->
+            <button type="submit" class="btn btn-primary form-submit">
+              ✉️ Send Message
+            </button>
+
+          </form>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- =============================================
+       ACHIEVEMENTS SECTION
+       ============================================= -->
+  <section class="section" style="background:var(--clr-secondary); color:#fff;" id="achievements" aria-labelledby="achieve-heading">
+    <div class="container">
+      <p class="section-label" style="color:var(--clr-accent);">Milestones</p>
+      <h2 class="section-title" style="color:#fff;" id="achieve-heading">My <em style="color:var(--clr-accent)">Achievements</em></h2>
+      <p class="section-subtitle" style="color:rgba(255,255,255,0.65);">
+        Small wins on the journey to becoming a developer.
+      </p>
+
+      <div style="display:grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap:1.5rem;">
+
+        <div class="skill-category">
+          <div class="skill-cat-icon">🏆</div>
+          <h3 class="skill-cat-title">First Webpage</h3>
+          <p style="font-size:0.88rem; color:rgba(255,255,255,0.65);">
+            Successfully built and rendered my first ever HTML webpage in a browser.
+          </p>
+        </div>
+
+        <div class="skill-category">
+          <div class="skill-cat-icon">🎨</div>
+          <h3 class="skill-cat-title">Styled with CSS</h3>
+          <p style="font-size:0.88rem; color:rgba(255,255,255,0.65);">
+            Linked my first external stylesheet and transformed a plain page with colour, fonts, and layout.
+          </p>
+        </div>
+
+        <div class="skill-category">
+          <div class="skill-cat-icon">📱</div>
+          <h3 class="skill-cat-title">Responsive Layout</h3>
+          <p style="font-size:0.88rem; color:rgba(255,255,255,0.65);">
+            Built a website that adapts for both desktop and mobile screens using media queries.
+          </p>
+        </div>
+
+        <div class="skill-category">
+          <div class="skill-cat-icon">🐙</div>
+          <h3 class="skill-cat-title">First GitHub Commit</h3>
+          <p style="font-size:0.88rem; color:rgba(255,255,255,0.65);">
+            Set up a GitHub repository and made my first commit — entering the world of version control.
+          </p>
+        </div>
+
+        <div class="skill-category">
+          <div class="skill-cat-icon">🚀</div>
+          <h3 class="skill-cat-title">Portfolio Launch</h3>
+          <p style="font-size:0.88rem; color:rgba(255,255,255,0.65);">
+            Completed and presented a full multi-page portfolio website as a final project.
+          </p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="nav-logo">[Your<span style="color:var(--clr-accent)">Name</span>]</a>
+          <p>A beginner web developer building skills one project at a time.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Navigation</h4>
+          <ul role="list">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Me</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Resources</h4>
+          <ul role="list">
+            <li><a href="https://developer.mozilla.org" target="_blank" rel="noopener noreferrer">MDN Web Docs</a></li>
+            <li><a href="https://www.w3schools.com" target="_blank" rel="noopener noreferrer">W3Schools</a></li>
+            <li><a href="https://github.com" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 [Your Name]. Built with ❤️ using HTML &amp; CSS.</p>
+        <div class="footer-socials" aria-label="Social media links">
+          <a href="#" class="social-link" aria-label="GitHub">🐙</a>
+          <a href="#" class="social-link" aria-label="LinkedIn">💼</a>
+          <a href="#" class="social-link" aria-label="Twitter">🐦</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <button class="back-top" id="backTop" aria-label="Back to top">↑</button>
+
+  <script>
+    const hamburger = document.getElementById('hamburger');
+    const mobileNav = document.getElementById('mobileNav');
+    hamburger.addEventListener('click', () => {
+      const isOpen = mobileNav.classList.toggle('open');
+      hamburger.setAttribute('aria-expanded', isOpen);
+    });
+    const backTop = document.getElementById('backTop');
+    window.addEventListener('scroll', () => {
+      backTop.classList.toggle('visible', window.scrollY > 400);
+    });
+    backTop.addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' }));
+
+    /* Simple form feedback */
+    const form = document.querySelector('form');
+    form.addEventListener('submit', (e) => {
+      e.preventDefault();
+      const btn = form.querySelector('[type="submit"]');
+      btn.textContent = '✅ Message Sent!';
+      btn.disabled = true;
+      btn.style.background = '#2e7d46';
+      setTimeout(() => {
+        btn.textContent = '✉️ Send Message';
+        btn.disabled = false;
+        btn.style.background = '';
+        form.reset();
+      }, 3000);
+    });
+  </script>
+
+</body>
+</html>

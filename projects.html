@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Projects and exercises built by [Your Name] during their HTML and CSS learning journey." />
+  <meta name="author" content="[Your Name]" />
+  <title>Projects | [Your Name]</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar" role="navigation" aria-label="Main navigation">
+    <div class="container nav-inner">
+      <a href="index.html" class="nav-logo">[Your<span>Name</span>]</a>
+      <ul class="nav-links" role="list">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="projects.html" class="active">Projects</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <a href="contact.html" class="btn btn-primary nav-cta desktop-only">Say Hello ✉️</a>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <div class="mobile-nav" id="mobileNav">
+    <a href="index.html">🏠 Home</a>
+    <a href="about.html">👤 About Me</a>
+    <a href="projects.html">💼 Projects</a>
+    <a href="contact.html">✉️ Contact</a>
+  </div>
+
+  <!-- Page Hero -->
+  <section class="page-hero" aria-labelledby="page-title">
+    <div class="container">
+      <p class="section-label">My Work</p>
+      <h1 class="section-title" id="page-title">Projects &amp; <em>Exercises</em></h1>
+      <p class="section-subtitle">
+        A showcase of what I've built, practised, and learned throughout my web 
+        development course — from simple exercises to complete websites.
+      </p>
+    </div>
+  </section>
+
+  <!-- =============================================
+       PROJECTS GRID
+       ============================================= -->
+  <section class="section" id="projects" aria-labelledby="projects-heading">
+    <div class="container">
+      <p class="section-label">Featured Work</p>
+      <h2 class="section-title" id="projects-heading">What I've <em>Built</em></h2>
+      <p class="section-subtitle">
+        Each project represents a milestone in my learning journey. Click the links 
+        to view the live demo or source code on GitHub.
+      </p>
+
+      <!-- Projects Grid -->
+      <div class="projects-grid">
+
+        <!-- Project 1 -->
+        <article class="project-card">
+          <div class="project-card-header" style="background: linear-gradient(135deg,#2d4a3e,#4a7a64);">
+            🏠
+          </div>
+          <div class="project-card-body">
+            <div class="project-tags">
+              <span class="project-tag">HTML</span>
+              <span class="project-tag">CSS</span>
+            </div>
+            <h3 class="project-title">Personal Portfolio Website</h3>
+            <p class="project-desc">
+              This very website! A multi-page portfolio built from scratch using HTML5 
+              and CSS3. Features a responsive layout, navigation bar, skills section, 
+              contact form, and more.
+            </p>
+            <ul style="margin: 0 0 1rem; padding-left: 1.2rem; font-size: 0.85rem; color: var(--clr-muted);">
+              <li>Multi-page structure with consistent navigation</li>
+              <li>Responsive layout using Flexbox and CSS Grid</li>
+              <li>Custom colour palette and Google Fonts</li>
+            </ul>
+            <div class="project-footer">
+              <div class="project-links">
+                <a href="#" class="project-link" aria-label="View live demo">🌐 Live Demo</a>
+                <a href="#" class="project-link" aria-label="View source on GitHub">🐙 GitHub</a>
+              </div>
+              <span class="project-status"><span class="status-dot"></span>Live</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project 2 -->
+        <article class="project-card">
+          <div class="project-card-header" style="background: linear-gradient(135deg,#c4622d,#e8a26a);">
+            🍽️
+          </div>
+          <div class="project-card-body">
+            <div class="project-tags">
+              <span class="project-tag">HTML</span>
+              <span class="project-tag">CSS</span>
+            </div>
+            <h3 class="project-title">Restaurant Menu Page</h3>
+            <p class="project-desc">
+              A styled restaurant menu webpage using semantic HTML tables, images with 
+              alt text, and CSS styling. Practised table structure, borders, and 
+              consistent layout.
+            </p>
+            <ul style="margin: 0 0 1rem; padding-left: 1.2rem; font-size: 0.85rem; color: var(--clr-muted);">
+              <li>HTML tables with thead, tbody, and caption</li>
+              <li>Images with descriptive alt attributes</li>
+              <li>CSS hover effects on table rows</li>
+            </ul>
+            <div class="project-footer">
+              <div class="project-links">
+                <a href="#" class="project-link" aria-label="View live demo">🌐 Live Demo</a>
+                <a href="#" class="project-link" aria-label="View source on GitHub">🐙 GitHub</a>
+              </div>
+              <span class="project-status"><span class="status-dot"></span>Complete</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project 3 -->
+        <article class="project-card">
+          <div class="project-card-header" style="background: linear-gradient(135deg,#3d6da8,#6a9fd8);">
+            📰
+          </div>
+          <div class="project-card-body">
+            <div class="project-tags">
+              <span class="project-tag">HTML</span>
+              <span class="project-tag">CSS</span>
+            </div>
+            <h3 class="project-title">Blog / Article Layout</h3>
+            <p class="project-desc">
+              A simple blog page layout using semantic article and section elements. 
+              Focused on typography, readable line lengths, heading hierarchy, and 
+              good spacing.
+            </p>
+            <ul style="margin: 0 0 1rem; padding-left: 1.2rem; font-size: 0.85rem; color: var(--clr-muted);">
+              <li>Semantic HTML: article, section, aside, figure</li>
+              <li>Typography and font pairing</li>
+              <li>Side navigation / table of contents</li>
+            </ul>
+            <div class="project-footer">
+              <div class="project-links">
+                <a href="#" class="project-link" aria-label="View live demo">🌐 Live Demo</a>
+                <a href="#" class="project-link" aria-label="View source on GitHub">🐙 GitHub</a>
+              </div>
+              <span class="project-status"><span class="status-dot"></span>Complete</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project 4 -->
+        <article class="project-card">
+          <div class="project-card-header" style="background: linear-gradient(135deg,#7b4ea8,#b088d4);">
+            📝
+          </div>
+          <div class="project-card-body">
+            <div class="project-tags">
+              <span class="project-tag">HTML</span>
+              <span class="project-tag">CSS</span>
+              <span class="project-tag">Forms</span>
+            </div>
+            <h3 class="project-title">Registration Form</h3>
+            <p class="project-desc">
+              A fully styled registration form with validation attributes, labels, 
+              input types, a select dropdown, radio buttons, checkboxes, and a 
+              styled submit button.
+            </p>
+            <ul style="margin: 0 0 1rem; padding-left: 1.2rem; font-size: 0.85rem; color: var(--clr-muted);">
+              <li>All HTML form input types</li>
+              <li>Proper label and fieldset structure</li>
+              <li>CSS focus styles and transitions</li>
+            </ul>
+            <div class="project-footer">
+              <div class="project-links">
+                <a href="#" class="project-link" aria-label="View live demo">🌐 Live Demo</a>
+                <a href="#" class="project-link" aria-label="View source on GitHub">🐙 GitHub</a>
+              </div>
+              <span class="project-status"><span class="status-dot"></span>Complete</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project 5 -->
+        <article class="project-card">
+          <div class="project-card-header" style="background: linear-gradient(135deg,#2d7a4a,#5ab87a);">
+            🃏
+          </div>
+          <div class="project-card-body">
+            <div class="project-tags">
+              <span class="project-tag">CSS</span>
+              <span class="project-tag">Flexbox</span>
+            </div>
+            <h3 class="project-title">CSS Card Component</h3>
+            <p class="project-desc">
+              A reusable card component layout built purely with CSS Flexbox. 
+              Includes hover animations, image styling, and a responsive grid 
+              of cards.
+            </p>
+            <ul style="margin: 0 0 1rem; padding-left: 1.2rem; font-size: 0.85rem; color: var(--clr-muted);">
+              <li>Flexbox card grid layout</li>
+              <li>CSS transitions and hover effects</li>
+              <li>Image overlay effects</li>
+            </ul>
+            <div class="project-footer">
+              <div class="project-links">
+                <a href="#" class="project-link" aria-label="View live demo">🌐 Live Demo</a>
+                <a href="#" class="project-link" aria-label="View source on GitHub">🐙 GitHub</a>
+              </div>
+              <span class="project-status"><span class="status-dot" style="background:#f59e0b;"></span>In Progress</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project 6 — Placeholder / Upcoming -->
+        <article class="project-card" style="border-style: dashed; background: transparent; box-shadow: none;">
+          <div class="project-card-header" style="background: var(--clr-border);">
+            ✨
+          </div>
+          <div class="project-card-body">
+            <div class="project-tags">
+              <span class="project-tag" style="background:rgba(0,0,0,0.05); color:var(--clr-muted);">Coming Soon</span>
+            </div>
+            <h3 class="project-title" style="color:var(--clr-muted);">Next Project</h3>
+            <p class="project-desc">
+              My next project is in the planning stage! I'm thinking about building 
+              a small photo gallery or a product landing page to practise CSS Grid 
+              and animations.
+            </p>
+            <div class="project-footer">
+              <span style="font-size:0.85rem; color:var(--clr-muted);">Planned for [Month, Year]</span>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- =============================================
+       HTML/CSS CONCEPTS TABLE
+       ============================================= -->
+  <section class="section" style="background:var(--clr-surface);" id="concepts" aria-labelledby="concepts-heading">
+    <div class="container">
+      <p class="section-label">What I Practised</p>
+      <h2 class="section-title" id="concepts-heading">Concepts <em>Used</em></h2>
+      <p class="section-subtitle">
+        A summary of the HTML and CSS concepts applied across all my projects.
+      </p>
+
+      <div class="goals-table-wrap">
+        <table>
+          <caption style="display:none">HTML and CSS concepts used in projects</caption>
+          <thead>
+            <tr>
+              <th scope="col">Concept</th>
+              <th scope="col">Type</th>
+              <th scope="col">Used In</th>
+              <th scope="col">Confidence</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Semantic HTML (header, nav, main, footer)</td>
+              <td>HTML</td>
+              <td>All Projects</td>
+              <td><span class="badge badge-done">High</span></td>
+            </tr>
+            <tr>
+              <td>HTML Forms &amp; Input Types</td>
+              <td>HTML</td>
+              <td>Registration Form, Portfolio Contact</td>
+              <td><span class="badge badge-progress">Medium</span></td>
+            </tr>
+            <tr>
+              <td>HTML Tables</td>
+              <td>HTML</td>
+              <td>Restaurant Menu, Portfolio Goals</td>
+              <td><span class="badge badge-done">High</span></td>
+            </tr>
+            <tr>
+              <td>CSS Flexbox</td>
+              <td>CSS</td>
+              <td>Card Component, Portfolio Nav</td>
+              <td><span class="badge badge-progress">Medium</span></td>
+            </tr>
+            <tr>
+              <td>CSS Grid</td>
+              <td>CSS</td>
+              <td>Portfolio Layout</td>
+              <td><span class="badge badge-progress">Growing</span></td>
+            </tr>
+            <tr>
+              <td>Hover Effects &amp; Transitions</td>
+              <td>CSS</td>
+              <td>Card Component, Portfolio Buttons</td>
+              <td><span class="badge badge-done">High</span></td>
+            </tr>
+            <tr>
+              <td>Responsive Design / Media Queries</td>
+              <td>CSS</td>
+              <td>Portfolio Website</td>
+              <td><span class="badge badge-progress">Medium</span></td>
+            </tr>
+            <tr>
+              <td>CSS Custom Properties (Variables)</td>
+              <td>CSS</td>
+              <td>Portfolio Website</td>
+              <td><span class="badge badge-progress">Medium</span></td>
+            </tr>
+            <tr>
+              <td>CSS Animations &amp; Keyframes</td>
+              <td>CSS</td>
+              <td>Portfolio Website</td>
+              <td><span class="badge badge-planned">Learning</span></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="nav-logo">[Your<span style="color:var(--clr-accent)">Name</span>]</a>
+          <p>A beginner web developer building skills one project at a time.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Navigation</h4>
+          <ul role="list">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Me</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Resources</h4>
+          <ul role="list">
+            <li><a href="https://developer.mozilla.org" target="_blank" rel="noopener noreferrer">MDN Web Docs</a></li>
+            <li><a href="https://www.w3schools.com" target="_blank" rel="noopener noreferrer">W3Schools</a></li>
+            <li><a href="https://github.com" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 [Your Name]. Built with ❤️ using HTML &amp; CSS.</p>
+        <div class="footer-socials" aria-label="Social media links">
+          <a href="#" class="social-link" aria-label="GitHub">🐙</a>
+          <a href="#" class="social-link" aria-label="LinkedIn">💼</a>
+          <a href="#" class="social-link" aria-label="Twitter">🐦</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <button class="back-top" id="backTop" aria-label="Back to top">↑</button>
+
+  <script>
+    const hamburger = document.getElementById('hamburger');
+    const mobileNav = document.getElementById('mobileNav');
+    hamburger.addEventListener('click', () => {
+      const isOpen = mobileNav.classList.toggle('open');
+      hamburger.setAttribute('aria-expanded', isOpen);
+    });
+    const backTop = document.getElementById('backTop');
+    window.addEventListener('scroll', () => {
+      backTop.classList.toggle('visible', window.scrollY > 400);
+    });
+    backTop.addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' }));
+  </script>
+
+</body>
+</html>

@@ -4,7 +4,7 @@ Ahlumile Totose — Personal Portfolio Website
 
 ---
 
-## 📌 Project Name
+## 📌 My-Portfolio
 **My First Personal Portfolio Website**
 
 ---

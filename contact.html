@@ -323,35 +323,6 @@
 
   <button class="back-top" id="backTop" aria-label="Back to top">↑</button>
 
-  <script>
-    const hamburger = document.getElementById('hamburger');
-    const mobileNav = document.getElementById('mobileNav');
-    hamburger.addEventListener('click', () => {
-      const isOpen = mobileNav.classList.toggle('open');
-      hamburger.setAttribute('aria-expanded', isOpen);
-    });
-    const backTop = document.getElementById('backTop');
-    window.addEventListener('scroll', () => {
-      backTop.classList.toggle('visible', window.scrollY > 400);
-    });
-    backTop.addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' }));
-
-    /* Simple form feedback */
-    const form = document.querySelector('form');
-    form.addEventListener('submit', (e) => {
-      e.preventDefault();
-      const btn = form.querySelector('[type="submit"]');
-      btn.textContent = '✅ Message Sent!';
-      btn.disabled = true;
-      btn.style.background = '#2e7d46';
-      setTimeout(() => {
-        btn.textContent = '✉️ Send Message';
-        btn.disabled = false;
-        btn.style.background = '';
-        form.reset();
-      }, 3000);
-    });
-  </script>
 
 </body>
 </html>

@@ -1,10 +1,10 @@
-# [Your Name] — Personal Portfolio Website
+Ahlumile Totose — Personal Portfolio Website
 
-![Portfolio Preview](images/preview.png)
+![Portfolio Preview])
 
 ---
 
-## 📌 Project Name
+## 📌 My-Portfolio
 **My First Personal Portfolio Website**
 
 ---
@@ -106,15 +106,15 @@ html-css-portfolio/
 ### Option 1 — Open Locally
 1. Download or clone the repository:
    ```bash
-   git clone https://github.com/yourusername/html-css-portfolio.git
+  https://github.com/totoseahlumile-dot/Portfolio.git
    ```
 2. Open the project folder
 3. Double-click `index.html` to open it in your browser
 4. Navigate using the menu to explore all pages
 
 ### Option 2 — Live Demo
-🌐 **GitHub Pages:** [https://yourusername.github.io/html-css-portfolio](https://yourusername.github.io/html-css-portfolio)  
-*(Replace with your actual deployed URL)*
+🌐 **GitHub Pages:** https://github.com/totoseahlumile-dot/Portfolio.git  
+
 
 ---
 
@@ -155,7 +155,6 @@ html-css-portfolio/
 ## 🔮 Future Improvements
 - [ ] Add JavaScript for interactive features (e.g. form validation, dark mode toggle)
 - [ ] Add a working backend or use Formspree for the contact form
-- [ ] Build a real image gallery with lightbox effect
 - [ ] Add more projects as I continue learning
 - [ ] Explore CSS custom animations and scroll-triggered effects
 - [ ] Learn and implement accessibility (WCAG) best practices
@@ -164,16 +163,15 @@ html-css-portfolio/
 ---
 
 ## 👤 Author
-**[Your Full Name]**  
-📧 [yourname@email.com](mailto:yourname@email.com)  
-🐙 [github.com/yourusername](https://github.com/yourusername)  
-💼 [linkedin.com/in/yourusername](https://linkedin.com/in/yourusername)  
+Ahlummile Totose 
+📧 (mailto:totoseahlimle@gmail.com)  
+🐙 (https://github.com/totoseahlumile-dot)  
+💼 (https://linkedin.com/in/ahlumile-totose)  
 
 ---
 
 ## 🌐 Deployed Link
-🔗 [https://yourusername.github.io/html-css-portfolio](https://yourusername.github.io/html-css-portfolio)
-
+🔗 https://github.com/totoseahlumile-dot/Portfolio.git
 ---
 
 *Built with ❤️ using only HTML & CSS — no frameworks, no templates, just code.*

@@ -1,7 +1,4 @@
 Ahlumile Totose — Personal Portfolio Website
-
-![Portfolio Preview])
-
 ---
 
 ## 📌 My-Portfolio
@@ -116,30 +113,20 @@ html-css-portfolio/
 🌐 **GitHub Pages:** https://github.com/totoseahlumile-dot/Portfolio.git  
 
 
----
 
-## 📸 Screenshots
-> Add screenshots of your website here after completing it.
 
-| Page | Preview |
-|------|---------|
-| Home | *(screenshot)* |
-| About | *(screenshot)* |
-| Projects | *(screenshot)* |
-| Contact | *(screenshot)* |
 
----
 
-## ⚡ Challenges Faced
+ Challenges Faced
 1. **Getting Flexbox to behave** — especially centering items both horizontally and vertically took trial and error.
 2. **Making the navbar sticky on scroll** — understanding `position: fixed` vs `sticky` and how they interact with page flow.
 3. **Responsive design** — writing media queries and figuring out when layouts need to change was harder than expected.
 4. **CSS specificity conflicts** — sometimes styles didn't apply because of selector specificity, which taught me to plan my CSS structure better.
 5. **Form styling** — making default browser inputs look consistent across Chrome, Firefox, and Safari.
 
----
 
-## 📖 What I Learned
+
+ 📖 What I Learned
 - How HTML and CSS work together to create complete web pages
 - The importance of semantic HTML for readability and accessibility
 - How the CSS Box Model controls all spacing and sizing
@@ -150,9 +137,9 @@ html-css-portfolio/
 - How to use Git and GitHub for version control
 - The value of clean, commented, well-indented code
 
----
 
-## 🔮 Future Improvements
+
+ 🔮 Future Improvements
 - [ ] Add JavaScript for interactive features (e.g. form validation, dark mode toggle)
 - [ ] Add a working backend or use Formspree for the contact form
 - [ ] Add more projects as I continue learning
@@ -160,19 +147,19 @@ html-css-portfolio/
 - [ ] Learn and implement accessibility (WCAG) best practices
 - [ ] Add a blog section to document my ongoing learning
 
----
 
-## 👤 Author
+
+ 👤 Author
 Ahlummile Totose 
 📧 (mailto:totoseahlimle@gmail.com)  
 🐙 (https://github.com/totoseahlumile-dot)  
 💼 (https://linkedin.com/in/ahlumile-totose)  
 
----
 
-## 🌐 Deployed Link
+
+ 🌐 Deployed Link
 🔗 https://github.com/totoseahlumile-dot/Portfolio.git
----
 
-*Built with ❤️ using only HTML & CSS — no frameworks, no templates, just code.*
+
+
 # Portfolio

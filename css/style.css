@@ -550,9 +550,7 @@ ul {
   color: var(--clr-muted);
 }
 
-/* =============================================
-   SKILLS SECTION
-   ============================================= */
+/*   SKILLS SECTION */
 .skills-section {
   background: var(--clr-secondary);
   color: #fff;
@@ -646,12 +644,11 @@ ul {
   background: rgba(255, 255, 255, 0.2);
 }
 
-/* =============================================
-   PROJECTS SECTION
-   ============================================= */
+/* 
+   PROJECTS SECTION */
 .projects-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 2rem;
 }
 
@@ -671,7 +668,7 @@ ul {
 }
 
 .project-card-header {
-  height: 160px;
+  height: 210px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -686,6 +683,28 @@ ul {
   background: inherit;
   opacity: 0.15;
   filter: blur(20px);
+}
+
+.project-card-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  opacity: 1;
+  transition: opacity 0.45s ease;
+}
+.project-card-image--alternate {
+  opacity: 0;
+}
+.project-card-header--has-hover-image:hover .project-card-image:not(.project-card-image--alternate),
+.project-card-header--has-hover-image:focus-within .project-card-image:not(.project-card-image--alternate) {
+  opacity: 0;
+}
+.project-card-header--has-hover-image:hover .project-card-image--alternate,
+.project-card-header--has-hover-image:focus-within .project-card-image--alternate {
+  opacity: 1;
 }
 
 .project-card-body {
@@ -718,6 +737,13 @@ ul {
   font-size: 0.9rem;
   color: var(--clr-muted);
   margin-bottom: 1.2rem;
+}
+
+.project-points {
+  margin: 0 0 1rem;
+  padding-left: 1.2rem;
+  font-size: 0.85rem;
+  color: var(--clr-muted);
 }
 
 .project-footer {
@@ -1256,6 +1282,10 @@ tbody td:first-child {
 }
 
 @media (max-width: 700px) {
+  .projects-grid {
+    grid-template-columns: 1fr;
+  }
+
   .nav-links {
     display: none;
   }
@@ -1337,7 +1367,8 @@ tbody td:first-child {
 .about-card-img {
   overflow: hidden;
   border-radius: 12px 12px 0 0;
-  height: 220px;
+  height: auto;
+  aspect-ratio: 3 / 4;
 }
 
 .about-profile-img {
